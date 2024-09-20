@@ -8,7 +8,10 @@ body {
     padding: 0;
 }
 
-header, main, aside, footer {
+header,
+main,
+aside,
+footer {
     padding: 20px;
 }
 
@@ -23,7 +26,10 @@ footer {
     text-align: center;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Georgia', serif;
     margin-bottom: 15px;
 }

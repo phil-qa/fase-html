@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./blog-step10-layout.css" rel="stylesheet" />
+    <title>My Blog</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Latest Posts</h2>
+        <article>
+            <h3>First Blog Post</h3>
+            <img src="/api/placeholder/400/300" alt="Placeholder image for first blog post">
+            <section>
+                <h4>Introduction</h4>
+                <p>This is the introduction to my first blog post.</p>
+            </section>
+            <section>
+                <h4>Main Content</h4>
+                <p>Here's the main content of my first blog post. Check out this <a
+                        href="https://example.com">interesting link</a>!</p>
+            </section>
+            <section>
+                <h4>Comments</h4>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" name="comment" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit Comment</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <h3>About Me</h3>
+        <p>I'm a passionate blogger sharing my thoughts and experiences.</p>
+        <h3>Recent Posts</h3>
+        <ul>
+            <li><a href="#">First Blog Post</a></li>
+            <li><a href="#">Second Blog Post</a></li>
+        </ul>
+        <h3>Categories</h3>
+        <ul>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Food</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
